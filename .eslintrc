@@ -1,0 +1,29 @@
+{
+  "extends": ["eslint:recommended", "plugin:node/recommended", "plugin:prettier/recommended"],
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "linebreak-style": 0,
+    "newline-after-var": 2,
+    "import/no-named-as-default": 0,
+    "no-plusplus": [2, { "allowForLoopAfterthoughts": true }],
+    "camelcase": "error",
+    "no-console": "warn",
+    "no-trailing-spaces": "error",
+    "comma-dangle": ["error", "always-multiline"],
+    "no-useless-return": "error",
+    "no-var": "error",
+    "eqeqeq": "error",
+    "use-isnan": "error",
+    "max-len": ["error", { "code": 100 }],
+    "eol-last": "error",
+    "prefer-const": "error",
+    "brace-style": ["error", "1tbs"],
+    "prefer-template": "error",
+    "prefer-arrow-callback": "error",
+    "no-useless-constructor": "error",
+    "no-useless-concat": "error"
+  }
+}
